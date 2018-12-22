@@ -7,6 +7,8 @@ from CC_agent_dist import Agent
 import time
 import torch
 import torch.multiprocessing as mp
+from model import Critic, Actor
+
 
 dir = os.getcwd()
 dir = dir + os.sep + "Reacher_Windows_x86_64"
@@ -60,7 +62,7 @@ for episode in range(episodes):
         dones = env_info.local_done                         # see if episode finished
         scores += env_info.rewards                          # update the score (for each agent)
         learn = True if t%1 == 0 else False
-        agent.step(states, actions, rewards, next_states, dones, learn, 20)
+        agent.step(states, actions, rewards, next_states, dones, learn, 1)
         states = next_states
         if np.any(dones):  # exit loop if episode finished
             break
@@ -68,7 +70,7 @@ for episode in range(episodes):
     scores_hist.append(scores)
     time_remain = np.mean(episode_t)*(episodes-episode)
     if episode % 1 == 0:
-        print('Score (ave. over agents) for ep. {}: {:04f} \tT: {:05.1f}s\test remain: {:02.0f}:{:02.0f}(h:m)'.format(episode, np.mean(scores),episode_t, time_remain//3600,time_remain%3600/60))
+        print('Score (ave. over agents) for ep. {}: {:04f} \tT: {:00.0f}:{:02.1f}(m:s)\tEst remain: {:02.0f}:{:02.0f}(h:m)'.format(episode, np.mean(scores),episode_t//60,episode_t%60, time_remain//3600,time_remain%3600/60))
     if len(scores_hist)>100 and np.mean(scores_hist[:-100]) >= 30:
         print('Finished in {} episodes'.format(episode+1))
 plt = plot.plot(scores_hist)

@@ -9,7 +9,8 @@ import torch
 import torch.nn.functional as F
 import torch.optim as optim
 
-BUFFER_SIZE = int(2e5)  # replay buffer size  (was 1e4, multiplied by 20 as we get 20 experiences in a timestep)
+
+BUFFER_SIZE = int(1e4)  # replay buffer size  (was 1e4, multiplied by 20 as we get 20 experiences in a timestep)
 BATCH_SIZE = 128 # minibatch size  (was 128, multiplied by 20)
 GAMMA = 0.9  # discount factor
 TAU = 1e-3  # for soft update of target parameters
@@ -55,8 +56,13 @@ class Agent():
     def step(self, states, actions, rewards, next_states, dones, learn,learn_ct):
         """Save experience in replay memory, and use random sample from buffer to learn."""
         # Save experience / reward
+        max_reward = 0
+        max_idx = 0
         for idx in range(len(states)):
-            self.memory.add(states[idx], actions[idx], rewards[idx], next_states[idx], dones[idx])
+            if rewards[idx]>max_reward:
+                max_reward = rewards[idx]
+                max_idx = idx
+        self.memory.add(states[max_idx], actions[max_idx], rewards[max_idx], next_states[max_idx], dones[max_idx])
 
         # Learn, if enough samples are available in memory
         if len(self.memory) > BATCH_SIZE and learn:
