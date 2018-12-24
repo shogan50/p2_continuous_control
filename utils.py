@@ -2,29 +2,32 @@ import matplotlib as plt
 import os
 
 class log_me:
-    def __init__(self):
+    def __init__(self,f_name):
         self.lines = []
         self.cwd = os.getcwd()
-        self.f_name = 'run log '
+        self.f_name = f_name
         id = 0
+        self.log_path = self.cwd + os.sep + self.f_name
 
-        while os.path.exists(self.cwd + os.sep + self.f_name + str(id) + '.log'):
-            id += 1
-        self.log_path = self.cwd + os.sep + self.f_name + str(id) + '.log'
-
-    def log(self, str):
+    def log(self, *argv):
         f = open(self.log_path, mode='a')
-        f.write(str + '\n')
-        print(str)
+        line = ''
+        for arg in argv:
+            line = line + arg
+        f.write(line)
+        print(line)
         f.close()
 
-    def add_line(self, str):
-        self.lines.append(str)
+    def add_line(self, *argv):
+        line = ''
+        for arg in argv:
+            line = line + arg
+        self.lines.append(line)
 
     def save_lines(self):
         f = open(self.log_path, mode = 'a')
         for line in self.lines:
-            f.write(line + '\n')
+            f.write(line)
             print(line)
         f.close()
 
