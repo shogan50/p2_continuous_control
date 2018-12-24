@@ -1,10 +1,32 @@
 import matplotlib as plt
+import os
+
+class log_me:
+    def __init__(self):
+        self.lines = []
+        self.cwd = os.getcwd()
+        self.f_name = 'run log '
+        id = 0
+
+        while os.path.exists(self.cwd + os.sep + self.f_name + str(id) + '.log'):
+            id += 1
+        self.log_path = self.cwd + os.sep + self.f_name + str(id) + '.log'
+
+    def log(self, str):
+        f = open(self.log_path, mode='a')
+        f.write(str + '\n')
+        print(str)
+        f.close()
+
+    def add_line(self, str):
+        self.lines.append(str)
+
+    def save_lines(self):
+        f = open(self.log_path, mode = 'a')
+        for line in self.lines:
+            f.write(line + '\n')
+            print(line)
+        f.close()
 
 
-def plot(frame_idx, rewards):
-    #  clear_output(True)
-    plt.figure(figsize=(20,5))
-    plt.subplot(131)
-    plt.title('frame %s. reward: %s' % (frame_idx, rewards[-1]))
-    plt.plot(rewards)
-    plt.show()
+
