@@ -58,6 +58,7 @@ while os.path.exists(cwd + os.sep + f_name + str(id) + '.log'):
 log_path = cwd + os.sep + f_name + str(id) + '.log'
 f = open(log_path,mode='w')
 f.write('time {} {}:{}'.format(datetime.datetime.day, datetime.datetime.hour, datetime.datetime.min))
+f.write('main file: ' + os.path.basename(__file__))
 f.write('platform = ' + platform.system())
 f.write('\nepisodes = '+ str(episodes))
 f.write('\nbuffer size = ' + str(agent.buffer_size))
