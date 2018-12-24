@@ -14,6 +14,8 @@ class log_me:
         line = ''
         for arg in argv:
             line = line + arg
+            if(line[-1]!='/n'):
+                line = line + '\n'
         f.write(line)
         print(line)
         f.close()
