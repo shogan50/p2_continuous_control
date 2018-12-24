@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-REPLAY_SIZE = 10000
+
 value_lr = 3e-4
 soft_q_lr = 3e-4
 policy_lr = 3e-4
@@ -20,17 +20,17 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class SAC_agent():
     def __init__(self, state_size, action_size, buffer_size):
-        self.replay_buffer = Replay_buffer(buffer_size=REPLAY_SIZE)
-        self.soft_q_net = Soft_Q_network(state_size,action_size).to(device)
-        self.value_net = Value_network(state_size,action_size).to(device)
-        self.target_value_net = Value_network(state_size,action_size).to(device)
-        self.policy_net = Policy_network(state_size,action_size).to(device)
+        self.replay_buffer = Replay_buffer(buffer_size=buffer_size)
+        self.soft_q_net = Soft_Q_network(state_size,action_size,fc1_units=128,fc2_units=128).to(device)
+        self.value_net = Value_network(state_size,action_size,fc1_units=128,fc2_units=128).to(device)
+        self.target_value_net = Value_network(state_size,action_size,fc1_units=128,fc2_units=128).to(device)
+        self.policy_net = Policy_network(state_size,action_size,fc1_units=128,fc2_units=128).to(device)
 
         self.value_optimizer = optim.Adam(self.value_net.parameters(),lr=value_lr)
         self.soft_q_optimizer = optim.Adam(self.soft_q_net.parameters(),lr=soft_q_lr)
         self.policy_optimizer = optim.Adam(self.policy_net.parameters(),lr=policy_lr)
 
-        for target_params, params in zip(self.target_value_net, self.value_net):
+        for target_params, params in zip(self.target_value_net.parameters(), self.value_net.parameters()):
             target_params.data.copy_(params.data)
 
         self.value_criterion = nn.MSELoss()
@@ -41,16 +41,16 @@ class SAC_agent():
 
     def soft_q_update(self, batch_size, gamma=0.99, mean_lambda=1e-3, std_lambda=1e-3, z_lambda=0.0, soft_tau=1e-2):
 
-        state, action, reward, next_state, done = self.replay_buffer.sample(batch_size)
+        state, action, reward, next_state, done = self.replay_buffer.sample(batch_size)         # collect samples
 
-        state = torch.FloatTensor(state).to(device)
+        state = torch.FloatTensor(state).to(device)                                             # push to GPU
         next_state = torch.FloatTensor(next_state).to(device)
         action = torch.FloatTensor(action).to(device)
         reward = torch.FloatTensor(reward).unsqueeze(1).to(device)
         done = torch.FloatTensor(np.float32(done)).unsqueeze(1).to(device)
 
-        expected_q_value = self.soft_q_net(state, action)
-        expected_value = self.value_net(state)
+        expected_q_value = self.soft_q_net(state, action)                                       #
+        expected_value = self.value_net.forward(state)
         new_action, log_prob, z, mean, log_std = self.policy_net.evaluate(state)
 
         target_value = self.target_value_net(next_state)
