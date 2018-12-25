@@ -136,20 +136,20 @@ def DDPG(env, kwargs):
     return scores_hist
 
 ddpg_args = {"buffer_size": int(1e6), # replay buffer size
-             "batch_size": 128*2, # minibatch size
+             "batch_size": 128*10, # minibatch size
              "gamma" : 0.99,  # discount factor
              "tau" : 1e-3,  # for soft update of target parameters
              "LR_actor" : 1e-3,  # learning rate of the actor
              "LR_critic" : 1e-3,  # learning rate of the critic
              "weight_decay" : .00 , # L2 weight decay
-             "max_episodes": 15,
+             "max_episodes": 250,
              "epsilon_decay" : .99995,
              "learn_every" : 1,
              "learn_repeat" : 1,
-             "pre_fill_qty" : 128*10,
+             "pre_fill_qty" : 0,
              "fc1_units" : 400,
              "fc2_units" : 300,
-             "sigma" : 0.2
+             "sigma" : 0.1
               }
 
 done = False
@@ -158,9 +158,10 @@ import random
 
 while not done:
     DDPG(env, kwargs=ddpg_args)
-    ddpg_args['batch_size'] = random.randint(128*2,128*40)
-    ddpg_args['pre_fill_qty'] = random.randint(0,100000)
-    ddpg_args['sigma'] = random.random()*.2
+    ddpg_args['max_episodes'] = 15
+    ddpg_args['fc1_units'] = random.randint(48, 600)
+    ddpg_args['fc2_units'] = random.randint(48, 400)
+
 
 # import multiprocessing
 #

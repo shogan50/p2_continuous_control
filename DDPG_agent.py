@@ -48,11 +48,19 @@ class Agent():
                                  fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
         self.actor_target = Actor(state_size, action_size, random_seed,
                                   fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+        self.actor_local1 = Actor(state_size, action_size, random_seed,
+                                 fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+        self.actor_target1 = Actor(state_size, action_size, random_seed,
+                                  fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
         self.actor_optimizer = optim.Adam(self.actor_local.parameters(), lr=self.LR_actor)
 
         # Critic Network (w/ Target Network)
         self.critic_local = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
         self.critic_target = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+
+        self.critic_local1 = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+        self.critic_target1 = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+
         self.critic_optimizer = optim.Adam(self.critic_local.parameters(), lr=self.LR_critic, weight_decay=self.weight_decay)
 
         # Noise process
@@ -108,6 +116,7 @@ class Agent():
             gamma (float): discount factor
         """
         states, actions, rewards, next_states, dones = experiences
+
 
         # ---------------------------- update critic ---------------------------- #
         # Get predicted next-state actions and Q values from target models

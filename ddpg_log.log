@@ -506,3 +506,421 @@ buffer volume: 60060 of 85815
 buffer volume: 80080 of 85815
 buffer volume: 100100 of 85815
 Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.50,1.1] 	T: 1:54(m:s)	Est remain: 0:29(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.02,0.62,1.7] 	T: 1:55(m:s)	Est remain: 0:27(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.42,1.1] 	T: 1:42(m:s)	Est remain: 0:22(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.16,0.7] 	T: 1:29(m:s)	Est remain: 0:18(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.67,1.9] 	T: 1:30(m:s)	Est remain: 0:16(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.19,0.98,2.2] 	T: 1:32(m:s)	Est remain: 0:15(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.58,1.65,4.4] 	T: 1:35(m:s)	Est remain: 0:14(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [1.15,2.43,4.0] 	T: 1:42(m:s)	Est remain: 0:14(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.88,2.62,5.4] 	T: 1:43(m:s)	Est remain: 0:12(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [1.39,5.23,19.9] 	T: 2:14(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [2.61,7.57,16.7] 	T: 2:36(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [4.81,10.35,22.5] 	T: 2:44(m:s)	Est remain: 0:11(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [5.51,13.96,28.2] 	T: 2:36(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [9.68,16.29,34.7] 	T: 2:54(m:s)	Est remain: 0:06(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [6.97,17.52,27.6] 	T: 2:58(m:s)	Est remain: 0:03(h:m)
+********************************************************************************************
+time :2018-12-25 06:59:32.583155
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 818)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 41997)('fc1_units', 400)('fc2_units', 300)('sigma', 0.038619932191131426)filling buffer with data from random actions
+buffer volume: 20020 of 41997
+buffer volume: 40040 of 41997
+buffer volume: 60060 of 41997
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.02,0.67,2.9] 	T: 1:10(m:s)	Est remain: 0:18(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.88,2.7] 	T: 1:09(m:s)	Est remain: 0:16(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.13,0.9] 	T: 1:09(m:s)	Est remain: 0:15(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.44,2.3] 	T: 1:13(m:s)	Est remain: 0:15(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.59,2.0] 	T: 1:13(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.41,2.2] 	T: 1:15(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.89,2.7] 	T: 1:17(m:s)	Est remain: 0:12(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,1.10,2.5] 	T: 1:18(m:s)	Est remain: 0:10(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.56,1.89,4.2] 	T: 1:23(m:s)	Est remain: 0:10(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.62,2.14,3.8] 	T: 1:22(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.61,2.39,3.9] 	T: 1:25(m:s)	Est remain: 0:07(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [1.06,3.10,5.6] 	T: 1:13(m:s)	Est remain: 0:05(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.69,4.71,17.1] 	T: 1:07(m:s)	Est remain: 0:03(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [1.13,4.57,6.8] 	T: 1:17(m:s)	Est remain: 0:03(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [2.08,4.78,8.2] 	T: 1:31(m:s)	Est remain: 0:02(h:m)
+********************************************************************************************
+time :2018-12-25 07:18:56.567926
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 3729)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 32760)('fc1_units', 400)('fc2_units', 300)('sigma', 0.10350046310726324)filling buffer with data from random actions
+buffer volume: 20020 of 32760
+buffer volume: 40040 of 32760
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.52,1.6] 	T: 2:45(m:s)	Est remain: 0:41(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.35,1.0] 	T: 2:49(m:s)	Est remain: 0:40(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.20,0.9] 	T: 2:55(m:s)	Est remain: 0:38(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.30,1.1] 	T: 2:39(m:s)	Est remain: 0:32(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.51,1.8] 	T: 3:02(m:s)	Est remain: 0:33(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.15,0.97,2.4] 	T: 2:53(m:s)	Est remain: 0:29(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.54,1.65,3.7] 	T: 2:45(m:s)	Est remain: 0:25(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.64,1.72,2.6] 	T: 2:06(m:s)	Est remain: 0:17(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.70,2.01,3.7] 	T: 2:07(m:s)	Est remain: 0:15(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.91,2.76,4.8] 	T: 2:11(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [1.22,3.57,6.5] 	T: 2:15(m:s)	Est remain: 0:11(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [1.27,5.65,11.2] 	T: 2:20(m:s)	Est remain: 0:09(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [3.23,8.57,14.8] 	T: 2:25(m:s)	Est remain: 0:07(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [3.77,7.79,16.7] 	T: 2:27(m:s)	Est remain: 0:05(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [4.23,10.45,17.6] 	T: 2:35(m:s)	Est remain: 0:03(h:m)
+********************************************************************************************
+time :2018-12-25 07:57:24.451816
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 4429)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 39135)('fc1_units', 400)('fc2_units', 300)('sigma', 0.046778519243442035)filling buffer with data from random actions
+buffer volume: 20020 of 39135
+buffer volume: 40040 of 39135
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.37,1.0] 	T: 2:03(m:s)	Est remain: 0:31(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.29,0.85,1.6] 	T: 2:03(m:s)	Est remain: 0:29(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.30,1.13,2.1] 	T: 2:05(m:s)	Est remain: 0:27(h:m)
+********************************************************************************************
+time :2018-12-25 08:10:26.148876
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1280)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 150)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 2560)('fc1_units', 400)('fc2_units', 300)('sigma', 0.1)filling buffer with data from random actions
+buffer volume: 20020 of 2560
+Training Started
+********************************************************************************************
+time :2018-12-25 08:14:12.820223
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1280)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 150)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 2560)('fc1_units', 400)('fc2_units', 300)('sigma', 0.1)filling buffer with data from random actions
+buffer volume: 20020 of 2560
+Training Started
+********************************************************************************************
+time :2018-12-25 08:15:11.873121
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1280)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 150)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 2560)('fc1_units', 400)('fc2_units', 300)('sigma', 0.1)filling buffer with data from random actions
+buffer volume: 20020 of 2560
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.52,1.6] 	T: 0:49(m:s)	Est remain: 2:03(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.12,0.51,1.2] 	T: 0:49(m:s)	Est remain: 2:02(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.21,0.92,2.0] 	T: 0:50(m:s)	Est remain: 2:02(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.46,1.26,2.9] 	T: 0:51(m:s)	Est remain: 2:05(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.21,1.10,2.7] 	T: 0:51(m:s)	Est remain: 2:04(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.06,0.94,1.9] 	T: 0:53(m:s)	Est remain: 2:09(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.46,1.68,3.5] 	T: 0:55(m:s)	Est remain: 2:11(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [1.23,2.22,5.0] 	T: 0:54(m:s)	Est remain: 2:10(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,2.60,4.7] 	T: 0:56(m:s)	Est remain: 2:12(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.75,3.07,7.2] 	T: 0:58(m:s)	Est remain: 2:17(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.40,3.45,7.1] 	T: 0:59(m:s)	Est remain: 2:17(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.41,3.29,5.3] 	T: 0:60(m:s)	Est remain: 2:18(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.74,4.71,14.0] 	T: 1:01(m:s)	Est remain: 2:21(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [2.37,4.67,8.8] 	T: 1:02(m:s)	Est remain: 2:22(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [1.00,6.10,9.8] 	T: 1:05(m:s)	Est remain: 2:27(h:m)
+Score ([min, mean, max] over agents) for ep. 15: [4.48,8.08,16.0] 	T: 1:06(m:s)	Est remain: 2:28(h:m)
+Score ([min, mean, max] over agents) for ep. 16: [5.12,8.19,12.3] 	T: 1:07(m:s)	Est remain: 2:29(h:m)
+Score ([min, mean, max] over agents) for ep. 17: [2.56,9.44,13.9] 	T: 1:08(m:s)	Est remain: 2:32(h:m)
+Score ([min, mean, max] over agents) for ep. 18: [6.44,10.46,20.1] 	T: 1:10(m:s)	Est remain: 2:35(h:m)
+Score ([min, mean, max] over agents) for ep. 19: [3.58,11.50,29.9] 	T: 1:12(m:s)	Est remain: 2:36(h:m)
+Score ([min, mean, max] over agents) for ep. 20: [7.76,9.95,13.5] 	T: 1:12(m:s)	Est remain: 2:37(h:m)
+Score ([min, mean, max] over agents) for ep. 21: [6.80,12.22,29.7] 	T: 1:14(m:s)	Est remain: 2:39(h:m)
+Score ([min, mean, max] over agents) for ep. 22: [8.36,11.64,16.1] 	T: 1:15(m:s)	Est remain: 2:40(h:m)
+Score ([min, mean, max] over agents) for ep. 23: [8.58,12.95,16.4] 	T: 1:18(m:s)	Est remain: 2:44(h:m)
+Score ([min, mean, max] over agents) for ep. 24: [5.58,15.09,20.3] 	T: 1:18(m:s)	Est remain: 2:44(h:m)
+Score ([min, mean, max] over agents) for ep. 25: [12.52,19.85,39.4] 	T: 1:20(m:s)	Est remain: 2:46(h:m)
+Score ([min, mean, max] over agents) for ep. 26: [10.79,19.08,32.3] 	T: 1:21(m:s)	Est remain: 2:47(h:m)
+Score ([min, mean, max] over agents) for ep. 27: [8.65,19.06,24.4] 	T: 1:25(m:s)	Est remain: 2:54(h:m)
+Score ([min, mean, max] over agents) for ep. 28: [12.33,18.23,31.2] 	T: 1:30(m:s)	Est remain: 3:03(h:m)
+Score ([min, mean, max] over agents) for ep. 29: [16.58,21.14,39.3] 	T: 1:31(m:s)	Est remain: 3:03(h:m)
+Score ([min, mean, max] over agents) for ep. 30: [13.78,21.95,35.5] 	T: 1:32(m:s)	Est remain: 3:04(h:m)
+Score ([min, mean, max] over agents) for ep. 31: [16.02,21.98,37.1] 	T: 1:33(m:s)	Est remain: 3:04(h:m)
+Score ([min, mean, max] over agents) for ep. 32: [13.43,22.47,38.3] 	T: 1:34(m:s)	Est remain: 3:05(h:m)
+Score ([min, mean, max] over agents) for ep. 33: [11.64,22.31,36.7] 	T: 1:36(m:s)	Est remain: 3:08(h:m)
+Score ([min, mean, max] over agents) for ep. 34: [15.04,21.57,29.8] 	T: 1:40(m:s)	Est remain: 3:12(h:m)
+Score ([min, mean, max] over agents) for ep. 35: [17.30,22.92,33.9] 	T: 1:37(m:s)	Est remain: 3:06(h:m)
+Score ([min, mean, max] over agents) for ep. 36: [20.04,22.75,30.1] 	T: 1:34(m:s)	Est remain: 2:59(h:m)
+Score ([min, mean, max] over agents) for ep. 37: [14.86,21.89,29.2] 	T: 1:39(m:s)	Est remain: 3:06(h:m)
+Score ([min, mean, max] over agents) for ep. 38: [14.52,21.89,28.4] 	T: 1:39(m:s)	Est remain: 3:05(h:m)
+Score ([min, mean, max] over agents) for ep. 39: [17.31,23.25,37.8] 	T: 1:46(m:s)	Est remain: 3:15(h:m)
+Score ([min, mean, max] over agents) for ep. 40: [6.94,23.59,31.8] 	T: 1:43(m:s)	Est remain: 3:08(h:m)
+Score ([min, mean, max] over agents) for ep. 41: [20.83,26.56,39.5] 	T: 1:42(m:s)	Est remain: 3:06(h:m)
+Score ([min, mean, max] over agents) for ep. 42: [17.85,24.66,39.2] 	T: 1:43(m:s)	Est remain: 3:06(h:m)
+Score ([min, mean, max] over agents) for ep. 43: [17.65,25.58,38.3] 	T: 1:45(m:s)	Est remain: 3:08(h:m)
+Score ([min, mean, max] over agents) for ep. 44: [20.72,24.91,29.6] 	T: 1:46(m:s)	Est remain: 3:07(h:m)
+Score ([min, mean, max] over agents) for ep. 45: [3.25,25.15,36.7] 	T: 1:54(m:s)	Est remain: 3:19(h:m)
+Score ([min, mean, max] over agents) for ep. 46: [19.94,23.55,28.3] 	T: 1:51(m:s)	Est remain: 3:12(h:m)
+Score ([min, mean, max] over agents) for ep. 47: [18.68,24.54,33.5] 	T: 1:52(m:s)	Est remain: 3:12(h:m)
+Score ([min, mean, max] over agents) for ep. 48: [20.77,26.16,32.8] 	T: 1:53(m:s)	Est remain: 3:12(h:m)
+Score ([min, mean, max] over agents) for ep. 49: [23.03,26.60,31.5] 	T: 1:54(m:s)	Est remain: 3:13(h:m)
+Score ([min, mean, max] over agents) for ep. 50: [22.34,28.05,37.4] 	T: 1:54(m:s)	Est remain: 3:10(h:m)
+Score ([min, mean, max] over agents) for ep. 51: [21.14,27.55,34.5] 	T: 1:59(m:s)	Est remain: 3:16(h:m)
+Score ([min, mean, max] over agents) for ep. 52: [23.05,28.58,39.2] 	T: 2:01(m:s)	Est remain: 3:17(h:m)
+Score ([min, mean, max] over agents) for ep. 53: [19.80,28.88,34.0] 	T: 2:04(m:s)	Est remain: 3:21(h:m)
+Score ([min, mean, max] over agents) for ep. 54: [23.72,29.43,37.8] 	T: 2:06(m:s)	Est remain: 3:22(h:m)
+Score ([min, mean, max] over agents) for ep. 55: [23.21,30.17,38.0] 	T: 2:04(m:s)	Est remain: 3:17(h:m)
+Score ([min, mean, max] over agents) for ep. 56: [23.17,31.07,39.2] 	T: 1:60(m:s)	Est remain: 3:07(h:m)
+Score ([min, mean, max] over agents) for ep. 57: [23.06,32.50,38.1] 	T: 2:01(m:s)	Est remain: 3:07(h:m)
+Score ([min, mean, max] over agents) for ep. 58: [24.71,33.22,38.7] 	T: 1:60(m:s)	Est remain: 3:04(h:m)
+Score ([min, mean, max] over agents) for ep. 59: [25.82,33.03,39.5] 	T: 2:00(m:s)	Est remain: 3:02(h:m)
+Score ([min, mean, max] over agents) for ep. 60: [28.91,33.51,37.5] 	T: 2:02(m:s)	Est remain: 3:04(h:m)
+Score ([min, mean, max] over agents) for ep. 61: [22.16,32.72,39.4] 	T: 2:04(m:s)	Est remain: 3:04(h:m)
+Score ([min, mean, max] over agents) for ep. 62: [23.26,32.22,38.2] 	T: 2:03(m:s)	Est remain: 3:00(h:m)
+Score ([min, mean, max] over agents) for ep. 63: [24.67,34.75,38.7] 	T: 1:60(m:s)	Est remain: 2:54(h:m)
+Score ([min, mean, max] over agents) for ep. 64: [32.84,36.07,38.7] 	T: 2:01(m:s)	Est remain: 2:54(h:m)
+Score ([min, mean, max] over agents) for ep. 65: [31.29,34.38,38.0] 	T: 2:03(m:s)	Est remain: 2:54(h:m)
+Score ([min, mean, max] over agents) for ep. 66: [27.07,33.51,38.2] 	T: 2:03(m:s)	Est remain: 2:53(h:m)
+Score ([min, mean, max] over agents) for ep. 67: [8.60,33.08,38.8] 	T: 2:04(m:s)	Est remain: 2:51(h:m)
+Score ([min, mean, max] over agents) for ep. 68: [31.67,35.01,38.8] 	T: 2:03(m:s)	Est remain: 2:48(h:m)
+Score ([min, mean, max] over agents) for ep. 69: [33.81,36.86,38.6] 	T: 2:05(m:s)	Est remain: 2:48(h:m)
+Score ([min, mean, max] over agents) for ep. 70: [31.67,36.61,39.2] 	T: 2:05(m:s)	Est remain: 2:47(h:m)
+Score ([min, mean, max] over agents) for ep. 71: [35.24,37.70,39.4] 	T: 2:05(m:s)	Est remain: 2:44(h:m)
+Score ([min, mean, max] over agents) for ep. 72: [31.95,36.76,39.4] 	T: 2:08(m:s)	Est remain: 2:46(h:m)
+Score ([min, mean, max] over agents) for ep. 73: [30.65,36.11,39.5] 	T: 2:04(m:s)	Est remain: 2:39(h:m)
+Score ([min, mean, max] over agents) for ep. 74: [33.10,36.23,39.2] 	T: 2:06(m:s)	Est remain: 2:40(h:m)
+Score ([min, mean, max] over agents) for ep. 75: [29.45,36.22,38.9] 	T: 2:02(m:s)	Est remain: 2:32(h:m)
+Score ([min, mean, max] over agents) for ep. 76: [34.40,36.70,39.5] 	T: 2:02(m:s)	Est remain: 2:30(h:m)
+Score ([min, mean, max] over agents) for ep. 77: [30.92,36.75,39.4] 	T: 2:04(m:s)	Est remain: 2:31(h:m)
+Score ([min, mean, max] over agents) for ep. 78: [32.39,36.75,39.1] 	T: 2:03(m:s)	Est remain: 2:28(h:m)
+Score ([min, mean, max] over agents) for ep. 79: [31.98,36.77,39.4] 	T: 1:60(m:s)	Est remain: 2:22(h:m)
+Score ([min, mean, max] over agents) for ep. 80: [28.44,36.25,39.0] 	T: 1:55(m:s)	Est remain: 2:14(h:m)
+Score ([min, mean, max] over agents) for ep. 81: [27.26,35.16,37.6] 	T: 1:54(m:s)	Est remain: 2:11(h:m)
+Score ([min, mean, max] over agents) for ep. 82: [27.10,34.37,39.6] 	T: 1:55(m:s)	Est remain: 2:10(h:m)
+Score ([min, mean, max] over agents) for ep. 83: [25.83,35.43,38.4] 	T: 1:57(m:s)	Est remain: 2:10(h:m)
+Score ([min, mean, max] over agents) for ep. 84: [31.98,34.67,38.4] 	T: 1:56(m:s)	Est remain: 2:08(h:m)
+Score ([min, mean, max] over agents) for ep. 85: [28.61,34.60,38.4] 	T: 2:06(m:s)	Est remain: 2:16(h:m)
+Score ([min, mean, max] over agents) for ep. 86: [31.78,35.97,38.5] 	T: 2:05(m:s)	Est remain: 2:14(h:m)
+Score ([min, mean, max] over agents) for ep. 87: [34.23,36.89,39.4] 	T: 1:55(m:s)	Est remain: 2:01(h:m)
+Score ([min, mean, max] over agents) for ep. 88: [31.47,36.23,39.2] 	T: 1:55(m:s)	Est remain: 1:59(h:m)
+Score ([min, mean, max] over agents) for ep. 89: [33.75,37.50,39.3] 	T: 1:55(m:s)	Est remain: 1:57(h:m)
+Score ([min, mean, max] over agents) for ep. 90: [28.47,36.94,38.9] 	T: 1:55(m:s)	Est remain: 1:55(h:m)
+Score ([min, mean, max] over agents) for ep. 91: [30.59,36.67,39.5] 	T: 1:54(m:s)	Est remain: 1:53(h:m)
+Score ([min, mean, max] over agents) for ep. 92: [32.14,37.41,39.5] 	T: 1:58(m:s)	Est remain: 1:54(h:m)
+Score ([min, mean, max] over agents) for ep. 93: [11.99,34.78,38.8] 	T: 2:02(m:s)	Est remain: 1:56(h:m)
+Score ([min, mean, max] over agents) for ep. 94: [29.27,34.94,38.8] 	T: 2:04(m:s)	Est remain: 1:55(h:m)
+Score ([min, mean, max] over agents) for ep. 95: [29.52,35.96,39.2] 	T: 1:55(m:s)	Est remain: 1:45(h:m)
+Score ([min, mean, max] over agents) for ep. 96: [34.10,36.95,39.3] 	T: 2:01(m:s)	Est remain: 1:49(h:m)
+Score ([min, mean, max] over agents) for ep. 97: [34.85,37.67,39.0] 	T: 1:59(m:s)	Est remain: 1:45(h:m)
+Score ([min, mean, max] over agents) for ep. 98: [31.69,37.80,39.5] 	T: 1:55(m:s)	Est remain: 1:40(h:m)
+Score ([min, mean, max] over agents) for ep. 99: [28.36,36.57,39.6] 	T: 1:55(m:s)	Est remain: 1:38(h:m)
+Score ([min, mean, max] over agents) for ep. 100: [33.39,36.69,39.4] 	T: 1:54(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 101: [33.24,37.19,39.4] 	T: 1:54(m:s)	Est remain: 1:33(h:m)
+Score ([min, mean, max] over agents) for ep. 102: [28.45,36.61,38.7] 	T: 1:54(m:s)	Est remain: 1:32(h:m)
+Score ([min, mean, max] over agents) for ep. 103: [32.53,37.02,39.2] 	T: 1:54(m:s)	Est remain: 1:30(h:m)
+Score ([min, mean, max] over agents) for ep. 104: [34.61,37.30,39.5] 	T: 1:55(m:s)	Est remain: 1:29(h:m)
+Score ([min, mean, max] over agents) for ep. 105: [35.03,37.62,39.5] 	T: 1:54(m:s)	Est remain: 1:26(h:m)
+Score ([min, mean, max] over agents) for ep. 106: [33.00,37.78,39.5] 	T: 2:05(m:s)	Est remain: 1:32(h:m)
+Score ([min, mean, max] over agents) for ep. 107: [35.33,38.09,39.6] 	T: 2:06(m:s)	Est remain: 1:30(h:m)
+Score ([min, mean, max] over agents) for ep. 108: [35.41,37.69,38.9] 	T: 2:05(m:s)	Est remain: 1:27(h:m)
+Score ([min, mean, max] over agents) for ep. 109: [33.83,37.44,39.5] 	T: 2:06(m:s)	Est remain: 1:26(h:m)
+Score ([min, mean, max] over agents) for ep. 110: [32.43,36.72,38.9] 	T: 2:02(m:s)	Est remain: 1:22(h:m)
+Score ([min, mean, max] over agents) for ep. 111: [28.17,36.90,39.3] 	T: 2:03(m:s)	Est remain: 1:20(h:m)
+Score ([min, mean, max] over agents) for ep. 112: [28.78,35.73,39.1] 	T: 2:04(m:s)	Est remain: 1:18(h:m)
+Score ([min, mean, max] over agents) for ep. 113: [26.24,35.10,39.3] 	T: 1:59(m:s)	Est remain: 1:14(h:m)
+Score ([min, mean, max] over agents) for ep. 114: [29.44,36.48,39.4] 	T: 2:00(m:s)	Est remain: 1:12(h:m)
+Score ([min, mean, max] over agents) for ep. 115: [31.67,35.41,39.6] 	T: 1:60(m:s)	Est remain: 1:10(h:m)
+Score ([min, mean, max] over agents) for ep. 116: [32.78,36.86,39.6] 	T: 1:56(m:s)	Est remain: 1:06(h:m)
+Score ([min, mean, max] over agents) for ep. 117: [31.46,36.52,39.5] 	T: 1:55(m:s)	Est remain: 1:03(h:m)
+Score ([min, mean, max] over agents) for ep. 118: [30.05,35.90,39.6] 	T: 1:54(m:s)	Est remain: 1:01(h:m)
+Score ([min, mean, max] over agents) for ep. 119: [32.25,35.47,38.5] 	T: 1:54(m:s)	Est remain: 0:59(h:m)
+Score ([min, mean, max] over agents) for ep. 120: [25.45,34.89,37.7] 	T: 1:55(m:s)	Est remain: 0:57(h:m)
+Score ([min, mean, max] over agents) for ep. 121: [30.31,35.79,39.0] 	T: 2:00(m:s)	Est remain: 0:58(h:m)
+Score ([min, mean, max] over agents) for ep. 122: [30.80,36.08,38.6] 	T: 2:04(m:s)	Est remain: 0:58(h:m)
+Score ([min, mean, max] over agents) for ep. 123: [29.02,35.03,38.5] 	T: 1:59(m:s)	Est remain: 0:54(h:m)
+Score ([min, mean, max] over agents) for ep. 124: [23.81,35.16,37.9] 	T: 2:02(m:s)	Est remain: 0:53(h:m)
+Score ([min, mean, max] over agents) for ep. 125: [30.98,34.44,39.2] 	T: 2:00(m:s)	Est remain: 0:50(h:m)
+Score ([min, mean, max] over agents) for ep. 126: [31.26,35.40,38.5] 	T: 2:01(m:s)	Est remain: 0:49(h:m)
+Score ([min, mean, max] over agents) for ep. 127: [32.34,36.40,38.8] 	T: 1:57(m:s)	Est remain: 0:45(h:m)
+Score ([min, mean, max] over agents) for ep. 128: [34.81,37.02,39.0] 	T: 1:57(m:s)	Est remain: 0:43(h:m)
+Score ([min, mean, max] over agents) for ep. 129: [28.16,35.81,39.3] 	T: 1:56(m:s)	Est remain: 0:41(h:m)
+Score ([min, mean, max] over agents) for ep. 130: [29.00,34.22,39.3] 	T: 1:55(m:s)	Est remain: 0:38(h:m)
+Score ([min, mean, max] over agents) for ep. 131: [28.63,35.55,39.6] 	T: 1:54(m:s)	Est remain: 0:36(h:m)
+Score ([min, mean, max] over agents) for ep. 132: [28.51,34.49,38.5] 	T: 1:55(m:s)	Est remain: 0:34(h:m)
+Score ([min, mean, max] over agents) for ep. 133: [28.95,36.00,39.2] 	T: 1:55(m:s)	Est remain: 0:33(h:m)
+Score ([min, mean, max] over agents) for ep. 134: [30.22,35.04,39.0] 	T: 1:55(m:s)	Est remain: 0:31(h:m)
+Score ([min, mean, max] over agents) for ep. 135: [31.93,35.89,39.0] 	T: 1:56(m:s)	Est remain: 0:29(h:m)
+Score ([min, mean, max] over agents) for ep. 136: [27.65,34.19,37.8] 	T: 1:57(m:s)	Est remain: 0:27(h:m)
+Score ([min, mean, max] over agents) for ep. 137: [32.91,36.05,38.7] 	T: 1:56(m:s)	Est remain: 0:25(h:m)
+Score ([min, mean, max] over agents) for ep. 138: [29.77,36.39,39.5] 	T: 1:55(m:s)	Est remain: 0:23(h:m)
+Score ([min, mean, max] over agents) for ep. 139: [34.41,37.21,39.1] 	T: 1:54(m:s)	Est remain: 0:21(h:m)
+Score ([min, mean, max] over agents) for ep. 140: [32.25,36.48,39.3] 	T: 1:55(m:s)	Est remain: 0:19(h:m)
+Score ([min, mean, max] over agents) for ep. 141: [35.48,38.15,39.5] 	T: 1:55(m:s)	Est remain: 0:17(h:m)
+Score ([min, mean, max] over agents) for ep. 142: [34.46,37.82,39.6] 	T: 1:55(m:s)	Est remain: 0:15(h:m)
+Score ([min, mean, max] over agents) for ep. 143: [32.71,37.42,39.1] 	T: 1:55(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 144: [32.69,37.28,39.4] 	T: 1:55(m:s)	Est remain: 0:11(h:m)
+Score ([min, mean, max] over agents) for ep. 145: [33.34,36.57,39.2] 	T: 1:57(m:s)	Est remain: 0:10(h:m)
+Score ([min, mean, max] over agents) for ep. 146: [33.58,36.78,39.2] 	T: 1:57(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 147: [34.05,36.48,39.2] 	T: 1:57(m:s)	Est remain: 0:06(h:m)
+Score ([min, mean, max] over agents) for ep. 148: [20.58,35.42,39.1] 	T: 1:56(m:s)	Est remain: 0:04(h:m)
+Score ([min, mean, max] over agents) for ep. 149: [34.26,36.48,39.1] 	T: 1:57(m:s)	Est remain: 0:02(h:m)
+********************************************************************************************
+time :2018-12-25 12:40:53.318388
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1280)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 2560)('fc1_units', 501)('fc2_units', 74)('sigma', 0.1)filling buffer with data from random actions
+buffer volume: 20020 of 2560
+Training Started
+********************************************************************************************
+time :2018-12-25 12:43:37.901825
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 2560)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 250)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 0)('fc1_units', 400)('fc2_units', 300)('sigma', 0.1)filling buffer with data from random actions
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.15,0.8] 	T: 1:10(m:s)	Est remain: 4:52(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.45,1.14,2.3] 	T: 1:21(m:s)	Est remain: 5:35(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.01,1.01,2.6] 	T: 1:22(m:s)	Est remain: 5:39(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.13,1.10,2.1] 	T: 1:24(m:s)	Est remain: 5:44(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.21,1.39,2.9] 	T: 1:25(m:s)	Est remain: 5:49(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.95,1.73,2.8] 	T: 1:28(m:s)	Est remain: 6:01(h:m)
+********************************************************************************************
+time :2018-12-25 12:52:41.473461
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 2560)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 250)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 0)('fc1_units', 400)('fc2_units', 300)('sigma', 0.1)filling buffer with data from random actions
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.15,0.8] 	T: 1:09(m:s)	Est remain: 4:50(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.45,1.14,2.3] 	T: 1:19(m:s)	Est remain: 5:26(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.01,1.01,2.6] 	T: 1:20(m:s)	Est remain: 5:29(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.13,1.10,2.1] 	T: 1:21(m:s)	Est remain: 5:34(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.21,1.39,2.9] 	T: 1:22(m:s)	Est remain: 5:37(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.95,1.73,2.8] 	T: 1:25(m:s)	Est remain: 5:46(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.91,2.10,3.6] 	T: 1:26(m:s)	Est remain: 5:49(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.84,2.34,3.6] 	T: 1:27(m:s)	Est remain: 5:53(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.90,2.81,4.5] 	T: 1:30(m:s)	Est remain: 6:02(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.88,3.42,6.2] 	T: 1:33(m:s)	Est remain: 6:12(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [1.17,3.31,8.4] 	T: 1:35(m:s)	Est remain: 6:19(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.31,3.48,5.9] 	T: 1:37(m:s)	Est remain: 6:27(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [1.88,3.70,5.8] 	T: 1:42(m:s)	Est remain: 6:45(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [2.62,5.27,10.1] 	T: 1:48(m:s)	Est remain: 7:06(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [3.53,5.42,7.3] 	T: 1:49(m:s)	Est remain: 7:10(h:m)
+Score ([min, mean, max] over agents) for ep. 15: [2.81,5.87,9.3] 	T: 1:52(m:s)	Est remain: 7:18(h:m)
+Score ([min, mean, max] over agents) for ep. 16: [3.63,6.94,11.8] 	T: 1:55(m:s)	Est remain: 7:30(h:m)
+Score ([min, mean, max] over agents) for ep. 17: [4.25,6.83,11.7] 	T: 1:57(m:s)	Est remain: 7:34(h:m)
+Score ([min, mean, max] over agents) for ep. 18: [4.16,7.35,13.1] 	T: 2:01(m:s)	Est remain: 7:48(h:m)
+Score ([min, mean, max] over agents) for ep. 19: [2.41,6.97,14.3] 	T: 2:04(m:s)	Est remain: 7:59(h:m)
+Score ([min, mean, max] over agents) for ep. 20: [4.53,9.93,24.2] 	T: 2:05(m:s)	Est remain: 7:58(h:m)
+Score ([min, mean, max] over agents) for ep. 21: [5.22,9.81,15.8] 	T: 2:07(m:s)	Est remain: 8:06(h:m)
+Score ([min, mean, max] over agents) for ep. 22: [5.40,11.12,22.8] 	T: 2:09(m:s)	Est remain: 8:11(h:m)
+Score ([min, mean, max] over agents) for ep. 23: [7.30,11.12,18.1] 	T: 2:11(m:s)	Est remain: 8:16(h:m)
+********************************************************************************************
+time :2018-12-25 13:34:22.127125
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 640)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 250)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 0)('fc1_units', 400)('fc2_units', 300)('sigma', 0.1)filling buffer with data from random actions
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.01,0.1] 	T: 0:41(m:s)	Est remain: 2:49(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.41,1.0] 	T: 0:41(m:s)	Est remain: 2:51(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.09,0.71,1.5] 	T: 0:41(m:s)	Est remain: 2:51(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.29,0.80,1.7] 	T: 0:42(m:s)	Est remain: 2:52(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.13,0.99,2.2] 	T: 0:42(m:s)	Est remain: 2:51(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.16,1.14,1.8] 	T: 0:45(m:s)	Est remain: 3:02(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.08,1.49,2.9] 	T: 0:44(m:s)	Est remain: 2:58(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.61,1.51,2.4] 	T: 0:43(m:s)	Est remain: 2:54(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.33,1.69,3.4] 	T: 0:44(m:s)	Est remain: 2:57(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.75,1.83,3.5] 	T: 0:44(m:s)	Est remain: 2:57(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.98,2.40,4.4] 	T: 0:45(m:s)	Est remain: 2:60(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [1.07,3.30,5.6] 	T: 0:46(m:s)	Est remain: 3:02(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [1.79,3.23,5.4] 	T: 0:47(m:s)	Est remain: 3:07(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [1.85,4.29,7.4] 	T: 0:48(m:s)	Est remain: 3:09(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [2.59,4.43,7.6] 	T: 0:48(m:s)	Est remain: 3:10(h:m)
+Score ([min, mean, max] over agents) for ep. 15: [2.58,4.61,6.2] 	T: 0:49(m:s)	Est remain: 3:10(h:m)
+Score ([min, mean, max] over agents) for ep. 16: [3.51,5.31,7.3] 	T: 0:49(m:s)	Est remain: 3:12(h:m)
+Score ([min, mean, max] over agents) for ep. 17: [2.74,5.74,10.7] 	T: 0:50(m:s)	Est remain: 3:13(h:m)
+Score ([min, mean, max] over agents) for ep. 18: [3.13,6.65,9.5] 	T: 0:51(m:s)	Est remain: 3:17(h:m)
+Score ([min, mean, max] over agents) for ep. 19: [5.17,6.90,10.2] 	T: 0:53(m:s)	Est remain: 3:23(h:m)
+Score ([min, mean, max] over agents) for ep. 20: [4.79,8.25,15.5] 	T: 0:52(m:s)	Est remain: 3:20(h:m)
+Score ([min, mean, max] over agents) for ep. 21: [6.49,8.29,10.4] 	T: 0:52(m:s)	Est remain: 3:20(h:m)
+Score ([min, mean, max] over agents) for ep. 22: [5.73,8.95,16.6] 	T: 0:53(m:s)	Est remain: 3:22(h:m)
+Score ([min, mean, max] over agents) for ep. 23: [6.66,9.35,12.0] 	T: 0:54(m:s)	Est remain: 3:26(h:m)
+Score ([min, mean, max] over agents) for ep. 24: [7.38,10.20,14.0] 	T: 0:55(m:s)	Est remain: 3:28(h:m)
+Score ([min, mean, max] over agents) for ep. 25: [4.11,10.97,16.5] 	T: 0:56(m:s)	Est remain: 3:32(h:m)
+Score ([min, mean, max] over agents) for ep. 26: [5.46,11.19,22.8] 	T: 0:58(m:s)	Est remain: 3:38(h:m)
+Score ([min, mean, max] over agents) for ep. 27: [6.85,10.40,14.1] 	T: 0:60(m:s)	Est remain: 3:42(h:m)
+Score ([min, mean, max] over agents) for ep. 28: [5.28,11.65,15.9] 	T: 1:00(m:s)	Est remain: 3:42(h:m)
+Score ([min, mean, max] over agents) for ep. 29: [6.32,12.48,28.0] 	T: 1:01(m:s)	Est remain: 3:45(h:m)
+Score ([min, mean, max] over agents) for ep. 30: [3.65,12.93,26.1] 	T: 1:02(m:s)	Est remain: 3:47(h:m)
+Score ([min, mean, max] over agents) for ep. 31: [1.11,13.96,29.8] 	T: 1:02(m:s)	Est remain: 3:46(h:m)
+Score ([min, mean, max] over agents) for ep. 32: [10.51,17.55,24.3] 	T: 1:02(m:s)	Est remain: 3:47(h:m)
+Score ([min, mean, max] over agents) for ep. 33: [9.72,14.94,22.0] 	T: 1:03(m:s)	Est remain: 3:49(h:m)
+Score ([min, mean, max] over agents) for ep. 34: [9.20,14.94,20.8] 	T: 1:04(m:s)	Est remain: 3:52(h:m)
+Score ([min, mean, max] over agents) for ep. 35: [9.46,15.79,21.7] 	T: 1:05(m:s)	Est remain: 3:55(h:m)
+Score ([min, mean, max] over agents) for ep. 36: [9.56,16.41,31.2] 	T: 1:06(m:s)	Est remain: 3:54(h:m)
+Score ([min, mean, max] over agents) for ep. 37: [8.09,16.56,23.8] 	T: 1:07(m:s)	Est remain: 3:58(h:m)
+Score ([min, mean, max] over agents) for ep. 38: [9.90,15.63,22.8] 	T: 1:07(m:s)	Est remain: 3:57(h:m)
+Score ([min, mean, max] over agents) for ep. 39: [10.70,17.01,24.6] 	T: 1:08(m:s)	Est remain: 3:59(h:m)
+Score ([min, mean, max] over agents) for ep. 40: [10.56,18.47,39.5] 	T: 1:10(m:s)	Est remain: 4:03(h:m)
+Score ([min, mean, max] over agents) for ep. 41: [10.26,18.94,25.9] 	T: 1:09(m:s)	Est remain: 4:02(h:m)
+Score ([min, mean, max] over agents) for ep. 42: [15.97,20.86,39.6] 	T: 1:09(m:s)	Est remain: 3:60(h:m)
+Score ([min, mean, max] over agents) for ep. 43: [13.04,18.26,23.9] 	T: 1:09(m:s)	Est remain: 3:58(h:m)
+Score ([min, mean, max] over agents) for ep. 44: [12.88,22.36,37.6] 	T: 1:10(m:s)	Est remain: 4:01(h:m)
+Score ([min, mean, max] over agents) for ep. 45: [12.98,20.34,25.2] 	T: 1:10(m:s)	Est remain: 4:00(h:m)
+Score ([min, mean, max] over agents) for ep. 46: [4.27,20.05,28.9] 	T: 1:11(m:s)	Est remain: 4:02(h:m)
+Score ([min, mean, max] over agents) for ep. 47: [13.01,18.85,27.3] 	T: 1:11(m:s)	Est remain: 4:01(h:m)
+Score ([min, mean, max] over agents) for ep. 48: [2.38,17.75,20.9] 	T: 1:12(m:s)	Est remain: 4:03(h:m)
+Score ([min, mean, max] over agents) for ep. 49: [14.89,20.29,24.6] 	T: 1:13(m:s)	Est remain: 4:06(h:m)
+Score ([min, mean, max] over agents) for ep. 50: [13.21,19.38,27.4] 	T: 1:13(m:s)	Est remain: 4:04(h:m)
+Score ([min, mean, max] over agents) for ep. 51: [9.43,22.07,38.6] 	T: 1:14(m:s)	Est remain: 4:05(h:m)
+Score ([min, mean, max] over agents) for ep. 52: [8.42,19.64,25.0] 	T: 1:14(m:s)	Est remain: 4:03(h:m)
+Score ([min, mean, max] over agents) for ep. 53: [16.36,22.53,35.1] 	T: 1:14(m:s)	Est remain: 4:04(h:m)
+Score ([min, mean, max] over agents) for ep. 54: [15.71,22.00,34.7] 	T: 1:14(m:s)	Est remain: 4:01(h:m)
+Score ([min, mean, max] over agents) for ep. 55: [10.33,21.96,26.8] 	T: 1:14(m:s)	Est remain: 3:59(h:m)
+Score ([min, mean, max] over agents) for ep. 56: [14.68,21.06,26.4] 	T: 1:14(m:s)	Est remain: 3:58(h:m)
+Score ([min, mean, max] over agents) for ep. 57: [12.49,21.60,39.5] 	T: 1:14(m:s)	Est remain: 3:58(h:m)
+Score ([min, mean, max] over agents) for ep. 58: [16.88,24.16,29.4] 	T: 1:13(m:s)	Est remain: 3:55(h:m)
+Score ([min, mean, max] over agents) for ep. 59: [13.60,25.61,35.7] 	T: 1:13(m:s)	Est remain: 3:54(h:m)
+Score ([min, mean, max] over agents) for ep. 60: [18.09,26.17,38.0] 	T: 1:14(m:s)	Est remain: 3:54(h:m)
+Score ([min, mean, max] over agents) for ep. 61: [19.18,25.52,32.5] 	T: 1:14(m:s)	Est remain: 3:54(h:m)
+Score ([min, mean, max] over agents) for ep. 62: [20.34,26.05,33.2] 	T: 1:14(m:s)	Est remain: 3:51(h:m)
+Score ([min, mean, max] over agents) for ep. 63: [17.00,24.57,34.4] 	T: 1:13(m:s)	Est remain: 3:49(h:m)
+Score ([min, mean, max] over agents) for ep. 64: [17.17,25.87,37.5] 	T: 1:13(m:s)	Est remain: 3:47(h:m)
+Score ([min, mean, max] over agents) for ep. 65: [16.51,23.87,28.3] 	T: 1:13(m:s)	Est remain: 3:46(h:m)
+Score ([min, mean, max] over agents) for ep. 66: [17.11,27.30,33.9] 	T: 1:14(m:s)	Est remain: 3:47(h:m)
+Score ([min, mean, max] over agents) for ep. 67: [17.11,25.79,33.1] 	T: 1:13(m:s)	Est remain: 3:44(h:m)
+Score ([min, mean, max] over agents) for ep. 68: [5.81,25.83,33.8] 	T: 1:13(m:s)	Est remain: 3:43(h:m)
+Score ([min, mean, max] over agents) for ep. 69: [21.40,25.51,31.8] 	T: 1:13(m:s)	Est remain: 3:41(h:m)
+Score ([min, mean, max] over agents) for ep. 70: [24.07,28.37,37.6] 	T: 1:14(m:s)	Est remain: 3:42(h:m)
+Score ([min, mean, max] over agents) for ep. 71: [18.91,27.29,33.6] 	T: 1:13(m:s)	Est remain: 3:39(h:m)
+Score ([min, mean, max] over agents) for ep. 72: [20.68,26.18,33.3] 	T: 1:14(m:s)	Est remain: 3:39(h:m)
+Score ([min, mean, max] over agents) for ep. 73: [18.03,24.92,31.4] 	T: 1:15(m:s)	Est remain: 3:40(h:m)
+Score ([min, mean, max] over agents) for ep. 74: [15.66,24.64,33.5] 	T: 1:15(m:s)	Est remain: 3:41(h:m)
+********************************************************************************************
+time :2018-12-25 14:56:24.305906
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1280)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 250)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 0)('fc1_units', 400)('fc2_units', 300)('sigma', 0.1)filling buffer with data from random actions
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.58,1.4] 	T: 0:48(m:s)	Est remain: 3:21(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,1.14,2.3] 	T: 0:53(m:s)	Est remain: 3:39(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.18,0.94,1.8] 	T: 0:50(m:s)	Est remain: 3:25(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.43,1.05,2.0] 	T: 0:52(m:s)	Est remain: 3:34(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.18,1.32,3.1] 	T: 0:53(m:s)	Est remain: 3:38(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.38,1.34,2.4] 	T: 0:52(m:s)	Est remain: 3:31(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.48,2.28,6.2] 	T: 0:54(m:s)	Est remain: 3:38(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [1.03,2.75,5.8] 	T: 0:55(m:s)	Est remain: 3:44(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [1.63,3.21,5.2] 	T: 0:57(m:s)	Est remain: 3:51(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [1.70,3.45,6.4] 	T: 0:57(m:s)	Est remain: 3:49(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [1.54,4.89,11.4] 	T: 0:58(m:s)	Est remain: 3:50(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.28,4.56,6.1] 	T: 1:00(m:s)	Est remain: 3:59(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [1.15,4.77,7.6] 	T: 1:03(m:s)	Est remain: 4:08(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [4.37,7.76,16.5] 	T: 1:03(m:s)	Est remain: 4:08(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [3.78,7.32,13.8] 	T: 1:03(m:s)	Est remain: 4:09(h:m)
+Score ([min, mean, max] over agents) for ep. 15: [3.59,7.35,13.0] 	T: 1:07(m:s)	Est remain: 4:22(h:m)
+Score ([min, mean, max] over agents) for ep. 16: [3.86,8.14,16.4] 	T: 1:11(m:s)	Est remain: 4:36(h:m)
+Score ([min, mean, max] over agents) for ep. 17: [3.41,8.28,11.9] 	T: 1:11(m:s)	Est remain: 4:36(h:m)
+Score ([min, mean, max] over agents) for ep. 18: [2.09,9.01,14.1] 	T: 1:10(m:s)	Est remain: 4:32(h:m)
+Score ([min, mean, max] over agents) for ep. 19: [4.35,9.03,12.6] 	T: 1:13(m:s)	Est remain: 4:41(h:m)
+Score ([min, mean, max] over agents) for ep. 20: [2.51,11.18,28.2] 	T: 1:14(m:s)	Est remain: 4:45(h:m)
+Score ([min, mean, max] over agents) for ep. 21: [5.70,10.60,15.4] 	T: 1:16(m:s)	Est remain: 4:50(h:m)
+Score ([min, mean, max] over agents) for ep. 22: [5.35,12.57,33.0] 	T: 1:16(m:s)	Est remain: 4:49(h:m)
+Score ([min, mean, max] over agents) for ep. 23: [6.81,10.49,13.6] 	T: 1:19(m:s)	Est remain: 4:59(h:m)
+Score ([min, mean, max] over agents) for ep. 24: [6.08,9.24,14.0] 	T: 1:20(m:s)	Est remain: 5:01(h:m)
+Score ([min, mean, max] over agents) for ep. 25: [0.62,10.22,15.8] 	T: 1:21(m:s)	Est remain: 5:04(h:m)
+Score ([min, mean, max] over agents) for ep. 26: [4.98,13.68,37.9] 	T: 1:22(m:s)	Est remain: 5:08(h:m)
