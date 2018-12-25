@@ -1,0 +1,39 @@
+time <attribute 'day' of 'datetime.date' objects> <attribute 'hour' of 'datetime.datetime' objects>:0001-01-01 00:00:00main file: DDPG_main.pyplatform = Windows
+episodes = 250
+buffer size = 1000000
+gamma = 0.99
+tau = 0.001
+learning rate actor = 0.001
+learning rate critic = 0.001
+device = cuda:0
+learn every = 20
+learn repeat x times = 10
+(noise) sigma = 0.2
+fc1,fc2 units = 400,300
+ prior attempts used 128 fc1 and fc2 units
+pre-fill the buffer with experiences from random actions
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.01,0.1] 	T: 0:24(m:s)	Est remain: 1:41(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.03,0.2] 	T: 0:23(m:s)	Est remain: 1:34(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.00,0.0] 	T: 0:23(m:s)	Est remain: 1:34(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.01,0.1] 	T: 0:23(m:s)	Est remain: 1:36(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.01,0.2] 	T: 0:23(m:s)	Est remain: 1:33(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.00,0.0] 	T: 0:23(m:s)	Est remain: 1:33(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.02,0.2] 	T: 0:24(m:s)	Est remain: 1:37(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.03,0.2] 	T: 0:24(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.03,0.2] 	T: 0:23(m:s)	Est remain: 1:33(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.00,0.0] 	T: 0:24(m:s)	Est remain: 1:36(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.00,0.04,0.3] 	T: 0:24(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.00,0.01,0.1] 	T: 0:24(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.00,0.01,0.1] 	T: 0:24(m:s)	Est remain: 1:34(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [0.00,0.03,0.2] 	T: 0:24(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [0.00,0.04,0.3] 	T: 0:24(m:s)	Est remain: 1:36(h:m)
+Score ([min, mean, max] over agents) for ep. 15: [0.00,0.00,0.0] 	T: 0:24(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 16: [0.00,0.02,0.2] 	T: 0:24(m:s)	Est remain: 1:34(h:m)
+Score ([min, mean, max] over agents) for ep. 17: [0.00,0.02,0.1] 	T: 0:25(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 18: [0.00,0.00,0.0] 	T: 0:24(m:s)	Est remain: 1:34(h:m)
+Score ([min, mean, max] over agents) for ep. 19: [0.00,0.01,0.1] 	T: 0:25(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 20: [0.00,0.00,0.1] 	T: 0:25(m:s)	Est remain: 1:36(h:m)
+Score ([min, mean, max] over agents) for ep. 21: [0.00,0.00,0.0] 	T: 0:25(m:s)	Est remain: 1:34(h:m)
+Score ([min, mean, max] over agents) for ep. 22: [0.00,0.03,0.2] 	T: 0:25(m:s)	Est remain: 1:35(h:m)
+Score ([min, mean, max] over agents) for ep. 23: [0.00,0.02,0.2] 	T: 0:25(m:s)	Est remain: 1:34(h:m)
+Score ([min, mean, max] over agents) for ep. 24: [0.00,0.05,0.3] 	T: 0:25(m:s)	Est remain: 1:35(h:m)

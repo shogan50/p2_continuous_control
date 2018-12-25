@@ -13,18 +13,16 @@ class log_me:
         f = open(self.log_path, mode='a')
         line = ''
         for arg in argv:
-            line = line + arg
-            if(line[-1]!='/n'):
-                line = line + '\n'
-        f.write(line)
+            line = line + str(arg)
+        f.write(line +'\n')
         print(line)
         f.close()
 
     def add_line(self, *argv):
         line = ''
         for arg in argv:
-            line = line + arg
-        self.lines.append(line)
+            line = line + str(arg)
+        self.lines.append(line + '\n')
 
     def save_lines(self):
         f = open(self.log_path, mode = 'a')
@@ -32,6 +30,14 @@ class log_me:
             f.write(line)
             print(line)
         f.close()
+        self.lines = []
+
+    def add_kwargs(self,kwargs):
+        line = []
+        for arg in kwargs.items():
+            self.lines.append(str(arg))
+        self.save_lines()
+
 
 
 

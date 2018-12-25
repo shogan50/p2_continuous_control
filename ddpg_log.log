@@ -1,0 +1,508 @@
+fc1,fc2 units = 400,300
+time :2018-12-24 08:16:55.132653main file: DDPG_main.pyplatform = Windows
+episodes = 250
+buffer size = 1000000
+gamma = 0.99
+tau = 0.001
+learning rate actor = 0.001
+learning rate critic = 0.001
+device = cuda:0
+learn every = 1
+learn repeat x times = 5
+(noise) sigma = 0.2
+fc1,fc2 units = 400,300time :2018-12-24 08:23:35.718320main file: DDPG_main.pyplatform = Windows
+episodes = 250
+buffer size = 1000000
+gamma = 0.99
+tau = 0.001
+learning rate actor = 0.001
+learning rate critic = 0.001
+device = cuda:0
+learn every = 1
+learn repeat x times = 1
+(noise) sigma = 0.2
+fc1,fc2 units = 400,300Score ([min, mean, max] over agents) for ep. 0: [0.00,0.57,1.7] 	T: 0:42(m:s)	Est remain: 2:56(h:m)Score ([min, mean, max] over agents) for ep. 1: [0.00,0.13,0.4] 	T: 0:41(m:s)	Est remain: 2:51(h:m)Score ([min, mean, max] over agents) for ep. 2: [0.11,0.72,1.9] 	T: 0:39(m:s)	Est remain: 2:41(h:m)Score ([min, mean, max] over agents) for ep. 3: [0.05,0.51,1.3] 	T: 0:39(m:s)	Est remain: 2:42(h:m)Score ([min, mean, max] over agents) for ep. 4: [0.00,0.08,0.4] 	T: 0:40(m:s)	Est remain: 2:42(h:m)Score ([min, mean, max] over agents) for ep. 5: [0.00,0.24,1.1] 	T: 0:41(m:s)	Est remain: 2:48(h:m)Score ([min, mean, max] over agents) for ep. 6: [0.00,0.48,1.5] 	T: 0:41(m:s)	Est remain: 2:45(h:m)Score ([min, mean, max] over agents) for ep. 7: [0.00,0.06,0.3] 	T: 0:39(m:s)	Est remain: 2:40(h:m)Score ([min, mean, max] over agents) for ep. 8: [0.00,0.05,0.3] 	T: 0:41(m:s)	Est remain: 2:45(h:m)Score ([min, mean, max] over agents) for ep. 9: [0.00,0.27,1.2] 	T: 0:40(m:s)	Est remain: 2:42(h:m)Score ([min, mean, max] over agents) for ep. 10: [0.00,0.04,0.3] 	T: 0:43(m:s)	Est remain: 2:50(h:m)time :2018-12-24 08:33:21.711739main file: DDPG_main.pyplatform = Windows
+episodes = 250
+buffer size = 1000000
+gamma = 0.99
+tau = 0.001
+learning rate actor = 0.001
+learning rate critic = 0.001
+device = cuda:0
+learn every = 1
+learn repeat x times = 1
+(noise) sigma = 0.2
+fc1,fc2 units = 400,300filling buffer with data from random actions
+time :2018-12-24 08:37:15.700373main file: DDPG_main.pyplatform = Windows
+episodes = 250
+buffer size = 1000000
+gamma = 0.99
+tau = 0.001
+learning rate actor = 0.001
+learning rate critic = 0.001
+device = cuda:0
+learn every = 1
+learn repeat x times = 1
+(noise) sigma = 0.2
+fc1,fc2 units = 400,300time :2018-12-24 08:40:54.470310main file: DDPG_main.pyplatform = Windows
+episodes = 250
+buffer size = 1000000
+gamma = 0.99
+tau = 0.001
+learning rate actor = 0.001
+learning rate critic = 0.001
+device = cuda:0
+learn every = 1
+learn repeat x times = 1
+(noise) sigma = 0.2
+fc1,fc2 units = 400,300filling buffer with data from random actions
+time :2018-12-24 08:41:27.631446main file: DDPG_main.pyplatform = Windows
+episodes = 250
+buffer size = 1000000
+gamma = 0.99
+tau = 0.001
+learning rate actor = 0.001
+learning rate critic = 0.001
+device = cuda:0
+learn every = 1
+learn repeat x times = 1
+(noise) sigma = 0.2
+fc1,fc2 units = 400,300filling buffer with data from random actions
+buffer volume: 20020of 25000
+buffer volume: 40040of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.29,0.7] 	T: 1:04(m:s)	Est remain: 4:26(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.28,0.9] 	T: 1:02(m:s)	Est remain: 4:19(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.19,0.7] 	T: 1:04(m:s)	Est remain: 4:23(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.09,0.52,1.2] 	T: 1:04(m:s)	Est remain: 4:25(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.31,0.7] 	T: 1:06(m:s)	Est remain: 4:30(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.06,0.2] 	T: 1:08(m:s)	Est remain: 4:37(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.01,0.1] 	T: 1:08(m:s)	Est remain: 4:39(h:m)
+********************************************************************************************time :2018-12-24 08:52:50.675959main file: DDPG_main.pyplatform = Windowsepisodes = 250buffer size = 1000000gamma = 0.99tau = 0.001learning rate actor = 0.001learning rate critic = 0.001device = cuda:0learn every = 1learn repeat x times = 1(noise) sigma = 0.2fc1,fc2 units = 400,300
+mini_batch size = 2560filling buffer with data from random actions
+buffer volume: 20020of 25000
+buffer volume: 40040of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.60,2.0] 	T: 1:38(m:s)	Est remain: 6:48(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.35,1.4] 	T: 1:38(m:s)	Est remain: 6:45(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.09,0.53,1.4] 	T: 1:40(m:s)	Est remain: 6:51(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,1.03,2.2] 	T: 1:42(m:s)	Est remain: 6:59(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.17,0.91,2.2] 	T: 1:46(m:s)	Est remain: 7:14(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.11,0.91,1.7] 	T: 1:48(m:s)	Est remain: 7:22(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.76,1.8] 	T: 1:52(m:s)	Est remain: 7:36(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.52,1.2] 	T: 1:56(m:s)	Est remain: 7:49(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.37,1.2] 	T: 2:01(m:s)	Est remain: 8:06(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.16,0.5] 	T: 2:04(m:s)	Est remain: 8:17(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.00,0.27,0.9] 	T: 2:07(m:s)	Est remain: 8:26(h:m)
+********************************************************************************************
+time :2018-12-24 10:41:25.729120
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 12:21:34.844473
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 12:22:12.142579
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 12:22:12.142579
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)
+('batch_size', 2560)
+('gamma', 0.99)
+('tau', 0.001)
+('LR_actor', 0.001)
+('LR_critic', 0.001)
+('weight_decay', 0.0)
+('max_episodes', 10)
+('epsilon_decay', 0.99995)
+('learn_every', 1)
+('learn_repeat', 1)
+('pre_fill_qty', 25000)
+('fc1_units', 400)
+('fc2_units', 300)
+('sigma', 0.2)
+filling buffer with data from random actions
+********************************************************************************************
+time :2018-12-24 12:28:15.576633
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 12:28:15.576633
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)
+('batch_size', 2560)
+('gamma', 0.99)
+('tau', 0.001)
+('LR_actor', 0.001)
+('LR_critic', 0.001)
+('weight_decay', 0.0)
+('max_episodes', 10)
+('epsilon_decay', 0.99995)
+('learn_every', 1)
+('learn_repeat', 1)
+('pre_fill_qty', 25000)
+('fc1_units', 400)
+('fc2_units', 300)
+('sigma', 0.2)
+filling buffer with data from random actions
+buffer volume: 20020 of 25000
+buffer volume: 40040 of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.26,1.0] 	T: 1:37(m:s)	Est remain: 0:16(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.35,1.2] 	T: 1:36(m:s)	Est remain: 0:14(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.04,0.2] 	T: 1:38(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.02,0.2] 	T: 1:40(m:s)	Est remain: 0:12(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.08,0.3] 	T: 1:42(m:s)	Est remain: 0:10(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.03,0.2] 	T: 1:44(m:s)	Est remain: 0:09(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.47,1.9] 	T: 1:46(m:s)	Est remain: 0:07(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.23,0.7] 	T: 1:48(m:s)	Est remain: 0:05(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.31,0.8] 	T: 1:55(m:s)	Est remain: 0:04(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.05,0.44,1.1] 	T: 1:55(m:s)	Est remain: 0:02(h:m)
+********************************************************************************************
+time :2018-12-24 13:12:41.832121
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 13:12:41.832121
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)
+('batch_size', 3274)
+('gamma', 0.99)
+('tau', 0.001)
+('LR_actor', 0.001)
+('LR_critic', 0.001)
+('weight_decay', 0.0)
+('max_episodes', 15)
+('epsilon_decay', 0.99995)
+('learn_every', 1)
+('learn_repeat', 1)
+('pre_fill_qty', 25000)
+('fc1_units', 400)
+('fc2_units', 300)
+('sigma', 0.35271303950393296)
+('prefill_qty', 50181)
+filling buffer with data from random actions
+buffer volume: 20020 of 25000
+buffer volume: 40040 of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.41,1.1] 	T: 1:57(m:s)	Est remain: 0:29(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.06,0.41,1.3] 	T: 1:57(m:s)	Est remain: 0:27(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.46,1.4] 	T: 1:59(m:s)	Est remain: 0:26(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.08,0.6] 	T: 2:05(m:s)	Est remain: 0:25(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.01,0.1] 	T: 2:10(m:s)	Est remain: 0:24(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.01,0.2] 	T: 2:12(m:s)	Est remain: 0:22(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.42,1.0] 	T: 2:17(m:s)	Est remain: 0:21(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.12,0.6] 	T: 2:23(m:s)	Est remain: 0:19(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.39,2.0] 	T: 2:23(m:s)	Est remain: 0:17(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.01,0.1] 	T: 2:24(m:s)	Est remain: 0:14(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.00,0.27,0.9] 	T: 2:24(m:s)	Est remain: 0:12(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.19,0.96,1.6] 	T: 2:26(m:s)	Est remain: 0:10(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.24,1.12,1.8] 	T: 2:35(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [0.11,0.99,2.0] 	T: 2:40(m:s)	Est remain: 0:05(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [0.16,0.79,1.6] 	T: 2:44(m:s)	Est remain: 0:03(h:m)
+********************************************************************************************
+time :2018-12-24 13:47:25.234435
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 13:47:25.234435
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)
+('batch_size', 815)
+('gamma', 0.99)
+('tau', 0.001)
+('LR_actor', 0.001)
+('LR_critic', 0.001)
+('weight_decay', 0.0)
+('max_episodes', 15)
+('epsilon_decay', 0.99995)
+('learn_every', 1)
+('learn_repeat', 1)
+('pre_fill_qty', 25000)
+('fc1_units', 400)
+('fc2_units', 300)
+('sigma', 0.49688420652973825)
+('prefill_qty', 82511)
+filling buffer with data from random actions
+buffer volume: 20020 of 25000
+buffer volume: 40040 of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.51,2.5] 	T: 0:59(m:s)	Est remain: 0:15(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.84,2.5] 	T: 0:60(m:s)	Est remain: 0:14(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.01,0.1] 	T: 1:00(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.01,0.1] 	T: 1:00(m:s)	Est remain: 0:12(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.06,0.6] 	T: 1:01(m:s)	Est remain: 0:11(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.43,1.7] 	T: 1:02(m:s)	Est remain: 0:10(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.12,0.70,1.5] 	T: 1:02(m:s)	Est remain: 0:09(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.30,1.2] 	T: 1:03(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.07,0.4] 	T: 1:05(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.32,1.4] 	T: 1:05(m:s)	Est remain: 0:06(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.00,0.54,2.1] 	T: 1:05(m:s)	Est remain: 0:05(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.00,0.46,1.0] 	T: 1:08(m:s)	Est remain: 0:05(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.19,0.49,0.9] 	T: 1:08(m:s)	Est remain: 0:03(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [0.13,0.71,2.1] 	T: 1:09(m:s)	Est remain: 0:02(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [0.08,0.67,1.4] 	T: 1:11(m:s)	Est remain: 0:01(h:m)
+********************************************************************************************
+time :2018-12-24 14:03:29.373456
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 14:03:29.373456
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)
+('batch_size', 4732)
+('gamma', 0.99)
+('tau', 0.001)
+('LR_actor', 0.001)
+('LR_critic', 0.001)
+('weight_decay', 0.0)
+('max_episodes', 15)
+('epsilon_decay', 0.99995)
+('learn_every', 1)
+('learn_repeat', 1)
+('pre_fill_qty', 25000)
+('fc1_units', 400)
+('fc2_units', 300)
+('sigma', 0.3680857659321854)
+('prefill_qty', 97136)
+filling buffer with data from random actions
+buffer volume: 20020 of 25000
+buffer volume: 40040 of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.15,0.62,1.3] 	T: 2:33(m:s)	Est remain: 0:38(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.49,1.3] 	T: 2:34(m:s)	Est remain: 0:36(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.62,1.5] 	T: 2:37(m:s)	Est remain: 0:34(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.36,2.3] 	T: 2:42(m:s)	Est remain: 0:32(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.30,0.9] 	T: 2:44(m:s)	Est remain: 0:30(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.06,0.2] 	T: 2:48(m:s)	Est remain: 0:28(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.02,0.2] 	T: 2:59(m:s)	Est remain: 0:27(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.02,0.1] 	T: 3:05(m:s)	Est remain: 0:25(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.11,0.63,1.5] 	T: 3:10(m:s)	Est remain: 0:22(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.53,1.4] 	T: 3:14(m:s)	Est remain: 0:19(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.19,0.73,2.6] 	T: 3:21(m:s)	Est remain: 0:17(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.27,0.69,1.5] 	T: 3:23(m:s)	Est remain: 0:14(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.06,0.71,2.2] 	T: 3:30(m:s)	Est remain: 0:11(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [0.00,0.20,1.1] 	T: 3:50(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [0.00,0.17,1.0] 	T: 5:05(m:s)	Est remain: 0:05(h:m)
+********************************************************************************************
+time :2018-12-24 14:51:13.874711
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 14:51:13.874711
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)
+('batch_size', 3453)
+('gamma', 0.99)
+('tau', 0.001)
+('LR_actor', 0.001)
+('LR_critic', 0.001)
+('weight_decay', 0.0)
+('max_episodes', 15)
+('epsilon_decay', 0.99995)
+('learn_every', 1)
+('learn_repeat', 1)
+('pre_fill_qty', 25000)
+('fc1_units', 400)
+('fc2_units', 300)
+('sigma', 0.3967005754173551)
+('prefill_qty', 22667)
+filling buffer with data from random actions
+buffer volume: 20020 of 25000
+buffer volume: 40040 of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.37,1.1] 	T: 2:12(m:s)	Est remain: 0:33(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.17,0.71,1.7] 	T: 2:16(m:s)	Est remain: 0:32(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.45,1.2] 	T: 2:20(m:s)	Est remain: 0:30(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.50,1.1] 	T: 2:21(m:s)	Est remain: 0:28(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.30,0.8] 	T: 2:22(m:s)	Est remain: 0:26(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.25,0.6] 	T: 2:42(m:s)	Est remain: 0:27(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.07,0.37,1.0] 	T: 2:46(m:s)	Est remain: 0:25(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.60,1.4] 	T: 2:34(m:s)	Est remain: 0:20(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.36,1.2] 	T: 2:40(m:s)	Est remain: 0:19(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.54,1.4] 	T: 2:45(m:s)	Est remain: 0:16(h:m)
+********************************************************************************************
+time :2018-12-24 15:24:36.877645
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+********************************************************************************************
+time :2018-12-24 15:25:21.026591
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1280)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 25000)('fc1_units', 400)('fc2_units', 300)('sigma', 0.01)filling buffer with data from random actions
+buffer volume: 20020 of 25000
+buffer volume: 40040 of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.09,0.70,2.0] 	T: 1:45(m:s)	Est remain: 0:26(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.19,0.92,2.0] 	T: 1:42(m:s)	Est remain: 0:24(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.55,1.6] 	T: 1:32(m:s)	Est remain: 0:20(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.24,0.6] 	T: 1:20(m:s)	Est remain: 0:16(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.06,0.49,2.1] 	T: 1:20(m:s)	Est remain: 0:15(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.54,1.5] 	T: 1:19(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.14,0.6] 	T: 1:24(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.32,1.0] 	T: 1:25(m:s)	Est remain: 0:11(h:m)
+********************************************************************************************
+time :2018-12-24 15:43:14.001214
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 128)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 10)('learn_repeat', 200)('pre_fill_qty', 25000)('fc1_units', 400)('fc2_units', 300)('sigma', 0.01)filling buffer with data from random actions
+buffer volume: 20020 of 25000
+buffer volume: 40040 of 25000
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.04,0.72,1.3] 	T: 14:19(m:s)	Est remain: 3:35(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.14,0.48,1.2] 	T: 13:59(m:s)	Est remain: 3:16(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.00,0.19,0.8] 	T: 13:27(m:s)	Est remain: 2:55(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.07,0.5] 	T: 14:11(m:s)	Est remain: 2:50(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.05,0.5] 	T: 14:55(m:s)	Est remain: 2:44(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.01,0.1] 	T: 14:53(m:s)	Est remain: 2:29(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.00,0.0] 	T: 14:07(m:s)	Est remain: 2:07(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.01,0.1] 	T: 13:59(m:s)	Est remain: 1:52(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.01,0.1] 	T: 14:12(m:s)	Est remain: 1:39(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.20,0.6] 	T: 14:06(m:s)	Est remain: 1:25(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.00,0.44,1.0] 	T: 14:14(m:s)	Est remain: 1:11(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.00,0.65,1.8] 	T: 14:10(m:s)	Est remain: 0:57(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.20,0.99,1.8] 	T: 13:60(m:s)	Est remain: 0:42(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [0.13,1.03,2.4] 	T: 13:58(m:s)	Est remain: 0:28(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [0.31,1.05,1.8] 	T: 13:40(m:s)	Est remain: 0:14(h:m)
+********************************************************************************************
+time :2018-12-24 19:15:41.365576
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 924)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 10)('learn_repeat', 200)('pre_fill_qty', 81685)('fc1_units', 400)('fc2_units', 300)('sigma', 0.07717906456134538)filling buffer with data from random actions
+buffer volume: 20020 of 81685
+buffer volume: 40040 of 81685
+buffer volume: 60060 of 81685
+buffer volume: 80080 of 81685
+buffer volume: 100100 of 81685
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.72,1.9] 	T: 16:57(m:s)	Est remain: 4:14(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.18,0.7] 	T: 17:08(m:s)	Est remain: 3:60(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.09,0.59,1.1] 	T: 17:20(m:s)	Est remain: 3:45(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.00,0.37,1.0] 	T: 17:31(m:s)	Est remain: 3:30(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.38,0.9] 	T: 17:54(m:s)	Est remain: 3:17(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.30,0.6] 	T: 18:16(m:s)	Est remain: 3:03(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.40,1.4] 	T: 18:41(m:s)	Est remain: 2:48(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.03,0.47,1.2] 	T: 19:09(m:s)	Est remain: 2:33(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.39,1.5] 	T: 19:33(m:s)	Est remain: 2:17(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.00,0.42,1.1] 	T: 22:13(m:s)	Est remain: 2:13(h:m)
+********************************************************************************************
+time :2018-12-24 22:31:42.403245
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 2560)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 200)('pre_fill_qty', 2560)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 2560
+Training Started
+********************************************************************************************
+time :2018-12-24 22:43:03.090927
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1280)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 200)('pre_fill_qty', 1280)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 1280
+Training Started
+********************************************************************************************
+time :2018-12-24 22:51:15.118928
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 128)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 200)('pre_fill_qty', 1280)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 1280
+Training Started
+********************************************************************************************
+time :2018-12-24 22:57:22.990723
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 128)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 200)('pre_fill_qty', 1280)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 1280
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.68,1.8] 	T: 107:44(m:s)	Est remain: 26:56(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.00,0.69,2.9] 	T: 104:20(m:s)	Est remain: 24:21(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.09,0.93,1.9] 	T: 103:55(m:s)	Est remain: 22:31(h:m)
+********************************************************************************************
+time :2018-12-25 06:08:07.859126
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 128)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 200)('pre_fill_qty', 1280)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 1280
+Training Started
+********************************************************************************************
+time :2018-12-25 06:10:31.305674
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 128)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 200)('pre_fill_qty', 1280)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 1280
+Training Started
+********************************************************************************************
+time :2018-12-25 06:12:44.863934
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 128)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 10)('pre_fill_qty', 1280)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 1280
+Training Started
+********************************************************************************************
+time :2018-12-25 06:15:29.486369
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 256)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 1280)('fc1_units', 400)('fc2_units', 300)('sigma', 0.2)filling buffer with data from random actions
+buffer volume: 20020 of 1280
+Training Started
+Score ([min, mean, max] over agents) for ep. 0: [0.00,0.08,0.5] 	T: 0:51(m:s)	Est remain: 0:13(h:m)
+Score ([min, mean, max] over agents) for ep. 1: [0.02,0.22,0.6] 	T: 0:46(m:s)	Est remain: 0:11(h:m)
+Score ([min, mean, max] over agents) for ep. 2: [0.11,0.46,0.9] 	T: 0:46(m:s)	Est remain: 0:10(h:m)
+Score ([min, mean, max] over agents) for ep. 3: [0.12,0.63,1.3] 	T: 0:45(m:s)	Est remain: 0:09(h:m)
+Score ([min, mean, max] over agents) for ep. 4: [0.00,0.40,1.8] 	T: 0:46(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 5: [0.00,0.13,0.5] 	T: 0:47(m:s)	Est remain: 0:08(h:m)
+Score ([min, mean, max] over agents) for ep. 6: [0.00,0.46,1.4] 	T: 0:46(m:s)	Est remain: 0:07(h:m)
+Score ([min, mean, max] over agents) for ep. 7: [0.00,0.31,1.0] 	T: 0:46(m:s)	Est remain: 0:06(h:m)
+Score ([min, mean, max] over agents) for ep. 8: [0.00,0.85,1.8] 	T: 0:48(m:s)	Est remain: 0:06(h:m)
+Score ([min, mean, max] over agents) for ep. 9: [0.52,1.32,2.6] 	T: 0:48(m:s)	Est remain: 0:05(h:m)
+Score ([min, mean, max] over agents) for ep. 10: [0.33,1.12,3.4] 	T: 0:48(m:s)	Est remain: 0:04(h:m)
+Score ([min, mean, max] over agents) for ep. 11: [0.02,1.27,2.9] 	T: 0:49(m:s)	Est remain: 0:03(h:m)
+Score ([min, mean, max] over agents) for ep. 12: [0.46,1.38,4.7] 	T: 0:49(m:s)	Est remain: 0:02(h:m)
+Score ([min, mean, max] over agents) for ep. 13: [0.15,1.21,2.7] 	T: 0:57(m:s)	Est remain: 0:02(h:m)
+Score ([min, mean, max] over agents) for ep. 14: [0.50,1.67,3.3] 	T: 1:02(m:s)	Est remain: 0:01(h:m)
+********************************************************************************************
+time :2018-12-25 06:27:51.282828
+main file: DDPG_main.py
+platform = Windows
+device = cuda:0
+('buffer_size', 1000000)('batch_size', 1999)('gamma', 0.99)('tau', 0.001)('LR_actor', 0.001)('LR_critic', 0.001)('weight_decay', 0.0)('max_episodes', 15)('epsilon_decay', 0.99995)('learn_every', 1)('learn_repeat', 1)('pre_fill_qty', 85815)('fc1_units', 400)('fc2_units', 300)('sigma', 0.036644696119993596)filling buffer with data from random actions
+buffer volume: 20020 of 85815
+buffer volume: 40040 of 85815
+buffer volume: 60060 of 85815
+buffer volume: 80080 of 85815
+buffer volume: 100100 of 85815
+Training Started

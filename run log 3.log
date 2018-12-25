@@ -62,3 +62,6 @@ Score ([min, mean, max] over agents) for ep. 48: [0.00,0.34,0.8] 	T: 1:41(m:s)	E
 Score ([min, mean, max] over agents) for ep. 49: [0.08,0.47,2.0] 	T: 1:38(m:s)	Est remain: 5:30(h:m)
 Score ([min, mean, max] over agents) for ep. 50: [0.03,0.41,1.6] 	T: 1:40(m:s)	Est remain: 5:34(h:m)
 Score ([min, mean, max] over agents) for ep. 51: [0.00,0.38,1.1] 	T: 1:39(m:s)	Est remain: 5:27(h:m)
+Score ([min, mean, max] over agents) for ep. 52: [0.02,0.42,1.0] 	T: 1:41(m:s)	Est remain: 5:32(h:m)
+Score ([min, mean, max] over agents) for ep. 53: [0.00,0.30,0.9] 	T: 1:40(m:s)	Est remain: 5:27(h:m)
+Score ([min, mean, max] over agents) for ep. 54: [0.02,0.31,0.6] 	T: 1:46(m:s)	Est remain: 5:45(h:m)
