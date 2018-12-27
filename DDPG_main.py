@@ -108,7 +108,7 @@ def DDPG(env, kwargs):
             torch.save(agent.actor_target.state_dict(), 'actor_local.pth')
 
         if len(scores_hist) > 100 and np.min(scores_hist[-100:]) >= 30:  # yippee!
-            print('Met project requirement in {} episodes'.format(episode + 1))
+            print('Met project requirement in {} episodes'.format(episode + 1))  #TODO: we coule probably stop the training here, or only send this message once.
     return scores_hist
 
 # the args are done this way as a convenient method of recording
