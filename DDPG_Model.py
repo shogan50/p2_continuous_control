@@ -35,6 +35,12 @@ class Actor(nn.Module):
         self.reset_parameters()
 
     def reset_parameters(self):
+        """
+        Params:
+        ===
+            initializes weights
+        :return:
+        """
         self.fc1.weight.data.uniform_(*hidden_init(self.fc1))
         self.fc2.weight.data.uniform_(*hidden_init(self.fc2))
         self.fc3.weight.data.uniform_(-3e-3, 3e-3)
@@ -71,6 +77,7 @@ class Critic(nn.Module):
         self.reset_parameters()
 
     def reset_parameters(self):
+        """resets nework weights"""
         self.fcs1.weight.data.uniform_(*hidden_init(self.fcs1))
         self.fc2.weight.data.uniform_(*hidden_init(self.fc2))
         self.fc3.weight.data.uniform_(-3e-3, 3e-3)

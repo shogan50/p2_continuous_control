@@ -2,13 +2,16 @@ import numpy as np
 import random
 import copy
 from collections import namedtuple, deque
+import time
+
 from DDPG_Model import Actor, Critic
+
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
 
+
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-#TODO: shoud probably pass this
 
 class Agent():
     """Interacts with and learns from the environment."""
@@ -21,19 +24,6 @@ class Agent():
             state_size (int): dimension of each state
             action_size (int): dimension of each action
             random_seed (int): random seed
-            kwargs (dictionary) TODO: refactor this as I'm only passing a dictionary, not a ** varibable.
-                looking for:
-                        ['buffer_size']
-                        ['gamma']
-                        ['tau']
-                        ['LR_actor']
-                        ['LR_critic']
-                        ['weight_decay']
-                        ['sigma']
-                        ['fc1_units']
-                        ['fc2_units']
-                        ['batch_size']
-
         """
 
         self.buffer_size = kwargs['buffer_size']
@@ -58,11 +48,18 @@ class Agent():
                                  fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
         self.actor_target = Actor(state_size, action_size, random_seed,
                                   fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+        self.actor_local1 = Actor(state_size, action_size, random_seed,
+                                 fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+        self.actor_target1 = Actor(state_size, action_size, random_seed,
+                                  fc1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
         self.actor_optimizer = optim.Adam(self.actor_local.parameters(), lr=self.LR_actor)
 
         # Critic Network (w/ Target Network)
         self.critic_local = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
         self.critic_target = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+
+        self.critic_local1 = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
+        self.critic_target1 = Critic(state_size, action_size, random_seed, fcs1_units=self.fc1_units, fc2_units=self.fc2_units).to(device)
 
         self.critic_optimizer = optim.Adam(self.critic_local.parameters(), lr=self.LR_critic, weight_decay=self.weight_decay)
 
@@ -72,7 +69,7 @@ class Agent():
         # Replay memory
         self.memory = ReplayBuffer(action_size, self.buffer_size, self.batch_size, random_seed)
 
-    def step(self, states, actions, rewards, next_states, dones):
+    def step(self, states, actions, rewards, next_states, dones, learn,learn_ct):
         """Save experience in replay memory, and use random sample from buffer to learn."""
         # Save experience / reward
 
@@ -83,9 +80,10 @@ class Agent():
         #     self.memory.add(states[idx], actions[idx], rewards[idx], next_states[idx], dones[idx])
 
         # Learn, if enough samples are available in memory
-        if len(self.memory) > self.batch_size:
-            experiences = self.memory.sample()
-            self.learn(experiences, self.gamma)
+        if len(self.memory) > self.batch_size and learn:
+            for _ in range(learn_ct):
+                experiences = self.memory.sample()
+                self.learn(experiences, self.gamma)
 
 
     def act(self, states, add_noise=True, epsilon=1):
@@ -99,7 +97,7 @@ class Agent():
         self.actor_local.train()                                        #set the mode back to train
         if add_noise:
             actions += self.noise.sample() * epsilon
-        return np.clip(actions, -1, 1)                                  #the noise can bring this out of range of -1,1
+        return np.clip(actions, -1, 1)
 
 
     def reset(self):

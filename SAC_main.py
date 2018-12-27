@@ -62,7 +62,7 @@ for episode_idx in range(max_episodes):
         dones = env_info.local_done                         # see if episode finished
         episode_rewards += rewards                          # update the score (for each agent)
         for st_idx in range(len(states)):
-            agent.replay_buffer.push(states[st_idx], actions[st_idx], rewards[st_idx], next_states[st_idx], dones[st_idx]) #TODO send all,  for now we send just the first
+            agent.replay_buffer.push(states, actions, rewards, next_states, dones)
         if len(agent.replay_buffer) > batch_size:
             for _ in range(soft_q_repeats):
                 agent.soft_q_update(batch_size)

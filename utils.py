@@ -1,5 +1,6 @@
 import matplotlib as plt
 import os
+import sys
 
 class log_me:
     def __init__(self,f_name):
@@ -38,6 +39,15 @@ class log_me:
             self.lines.append(str(arg))
         self.save_lines()
 
+class Logger(object):
+    def __init__(self, f_name):
+        self.terminal = sys.stdout
+        self.log = open(f_name, "a")
 
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+    def flush(self):
+        pass
 
 
